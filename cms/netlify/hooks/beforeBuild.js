@@ -4,4 +4,6 @@ import generateCategoryApi from '../build/generate-category-api'
 export default () => {
   generatePostApi()
   generateCategoryApi()
+  generatePageApi()
+  generateReceotekApi()
 }
