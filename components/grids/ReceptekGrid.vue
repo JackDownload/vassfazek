@@ -2,7 +2,7 @@
   <resource-grid
     v-bind="$props"
     :resource="$cms.recept"
-    :theme="$siteConfig.recepts.theme || $siteConfig.cards.theme || null"
+    :theme="$siteConfig.receptek.theme || $siteConfig.cards.theme || null"
   >
     <template v-slot:default="{ item }">
       <recept-card
