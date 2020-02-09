@@ -2,7 +2,7 @@ import { getMixins } from './mixins'
 
 class Recept {
   constructor(axios) {
-    this.slug = 'post'
+    this.slug = 'recept'
     this.slugPlural = 'receptek'
     this.pretty = 'Recept'
     this.plural = 'Receptek'
