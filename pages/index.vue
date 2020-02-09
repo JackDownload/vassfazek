@@ -11,7 +11,11 @@
     <main-section theme="one-column">
       <template v-slot:default>
         <!-- All Posts -->
+         <receptek-grid />
+          </br>
+          </br>
         <posts-grid />
+        <receptek-grid />
       </template>
       <template v-slot:sidebar>
         Nothing here
