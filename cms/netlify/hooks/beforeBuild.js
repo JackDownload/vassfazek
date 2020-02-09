@@ -5,5 +5,5 @@ export default () => {
   generatePostApi()
   generateCategoryApi()
   generatePageApi()
-  generateReceotekApi()
+  generateReceptApi()
 }
